@@ -1,4 +1,6 @@
 import { Inngest } from "inngest";
+import { User } from "../models/user.model.js";
+import { connectDB } from "./db.js";
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "Group Connect" });
@@ -30,11 +32,10 @@ const deleteUserFromDB = inngest.createFunction(
     {event:"clerk/user.deleted"},
     async ({event})=>{
         await connectDB();
-
         const {id} = event.data;
         await User.findOneAndDelete({clerkId: id});
         
-        
+
     
     }
 );

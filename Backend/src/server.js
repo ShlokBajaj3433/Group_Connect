@@ -3,7 +3,7 @@ import { ENV } from './config/env.js';
 import { connectDB } from './config/db.js';
 import { clerkMiddleware } from '@clerk/nextjs/server'
 import { serve } from 'inngest/express';
-import { inngest,functions\ } from './config/inngest.js';
+import { inngest,functions } from './config/inngest.js';
 
 const app = express();
 const port = ENV.PORT;
