@@ -1,0 +1,48 @@
+[33mcommit c010e32d8fd3adc59c39a5a9873e335d7d2da0a1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: ShlokBajaj3433 <137520330+ShlokBajaj3433@users.noreply.github.com>
+Date:   Tue Sep 23 19:28:47 2025 +0530
+
+    feat: add vercel configuration for deployment setup
+
+[33mcommit 16778e146cf45095b010a9f8baba58f9eca88bda[m
+Author: ShlokBajaj3433 <137520330+ShlokBajaj3433@users.noreply.github.com>
+Date:   Tue Sep 23 01:28:31 2025 +0530
+
+    refactor: update user model and server configuration for improved clarity and consistency
+
+[33mcommit 014d8f4e23ca3d8b366fcff4a9fb50e6cb95337f[m
+Merge: ee6c199 76b79f4
+Author: Shlok Bajaj <137520330+ShlokBajaj3433@users.noreply.github.com>
+Date:   Tue Sep 23 01:13:34 2025 +0530
+
+    Merge pull request #2 from ShlokBajaj3433/auth
+    
+    auth implemented
+
+[33mcommit 76b79f4e6ca21f374a0f7774fe081ba37b095121[m
+Author: ShlokBajaj3433 <137520330+ShlokBajaj3433@users.noreply.github.com>
+Date:   Tue Sep 23 01:06:45 2025 +0530
+
+    auth implemented
+
+[33mcommit ee6c1998f73b76f7bdb13577ddf559c34b9269d4[m
+Merge: e50f1bb e100773
+Author: Shlok Bajaj <137520330+ShlokBajaj3433@users.noreply.github.com>
+Date:   Mon Sep 22 00:19:14 2025 +0530
+
+    Merge pull request #1 from ShlokBajaj3433/db-config
+    
+    DB Connected & env.js
+
+[33mcommit e10077376898f5fcf6cd4c9c144ef340303d31a7[m[33m ([m[1;31morigin/db-config[m[33m, [m[1;32mdb-config[m[33m)[m
+Author: ShlokBajaj3433 <137520330+ShlokBajaj3433@users.noreply.github.com>
+Date:   Fri Sep 19 23:42:33 2025 +0530
+
+    DB Connected & env.js
+
+[33mcommit e50f1bbc774664045196db3f863b2f92bc607c9b[m
+Author: ShlokBajaj3433 <137520330+ShlokBajaj3433@users.noreply.github.com>
+Date:   Sun Aug 31 23:41:49 2025 +0530
+
+    initialize frontend with Vite and React setup
+    and backend Files made
